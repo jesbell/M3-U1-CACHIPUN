@@ -19,11 +19,12 @@ while(n < cantidad){
         alert("¡HAS EMPATADO!")
     }
     else if (
-        (jugador == 1 && maquina === 3) ||
+        (jugador == 1 && maquina == 3) ||
         (jugador == 2 && maquina == 1) ||
         (jugador == 3 && maquina == 2)){
         alert("¡¡ GANASTE 😎 !!");
     } else {
+        
         alert("Perdiste 🙁");
     }
 
